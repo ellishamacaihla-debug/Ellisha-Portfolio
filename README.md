@@ -18,11 +18,11 @@ You can view the fully functional, responsive portfolio live online here:
 
 This single-page site is organized into five main sections, easily navigated via the fixed top bar:
 
-1.  **Home:** A short bio and personal tagline, featuring my profile photo.
-2.  **Activities & Projects:** Displays four of my key academic works and hands-on projects (e.g., VMGO, Installation, IT Support Simulation).
-3.  **Hobbies:** Showcases five personal interests (Listening to Music, Cooking, Watching Movies, etc.) that demonstrate creativity and discipline.
-4.  **Skills & Expertise:** The interactive section where clicking on a skill (Volleyball, Acting, Singing, Photography) swaps the accompanying photo.
-5.  **Contact:** A simple form allowing visitors to send me a message directly.
+1.  **Home:** 
+2.  **Activities & Projects:** 
+3.  **Hobbies:** 
+4.  **Skills & Expertise:** 
+5.  **Contact:** 
 
 ---
 
@@ -30,11 +30,11 @@ This single-page site is organized into five main sections, easily navigated via
 
 This project was built entirely using foundational web technologies for simplicity, portability, and excellent performance:
 
-* **HTML5:** Provides the structure and content hierarchy.
-* **CSS3 (Internal Styling):** Handles all visual design, including the pink and purple color scheme, responsive layout, and aesthetic transitions.
-* **JavaScript (Internal Script):** Powers the smooth scrolling feature and the dynamic image-swapping functionality in the Skills section.
+* **HTML5:** 
+* **CSS3 (Internal Styling):** 
+* **JavaScript (Internal Script):** 
 
-**Note:** This entire portfolio is contained within a single `index.html` file, with CSS and JavaScript embedded for maximum portability.
+
 
 ---
 

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css"> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="logo">My Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="profile-image-container">
+                <img src="/img/profile.jpg" alt="Your Profile Photo" class="profile-photo">
+            </div>
+            <h1>Hello, I'm Macaihla Ellisha Alvarez</h1>
+            <p class="tagline">Action, Light, and Flavor. Let Me Show You What I Can Really Do.</p>
+        </div>
+    </header>
+
+    <section id="activities" class="content-section">
+        <h2>My Activities & Projects</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="/img/Act1.png" alt="Activity 1" class="placeholder-img">
+                <h3>VMGO</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="/img/Act2.png" alt="Activity 2" class="placeholder-img">
+                <h3>GROUP REPORTING </h3>
+            </div>
+            <div class="gallery-item">
+                <img src="/img/Act3.png" alt="Activity 3" class="placeholder-img">
+                <h3>Installion of Windows and Ubuntu</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="/img/Act4.png" alt="Activity 4" class="placeholder-img">
+                <h3>IT Support Training and Simulation</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies" class="content-section light-bg">
+        <h2>What I Love To Do</h2>
+        <div class="gallery">
+            
+            <div class="gallery-item">
+                <img src="/img/listening music_hobbies2.jpg" alt="Listening to Music" class="placeholder-img">
+                <h3>Listen Music</h3>
+                <p>My creative fuel. Whether it's ambient soundscapes or high-energy pop, music is essential for focus, energy, and finding the rhythm in my work and life.</p>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="/img/eating_hobbies.jpg" alt="Eating" class="placeholder-img">
+                <h3>Eating</h3>
+                <p>An appreciation for flavor. I approach food with curiosity and enthusiasm. Exploring different cuisines sharpens my palate and my perspective on cultural detail.</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="/img/watching movies_hobbies5.jpg" alt="Watching Movie" class="placeholder-img">
+                <h3>Watching Movie</h3>
+                <p>Studying narrative and visual composition. I analyze storytelling, lighting, and pacing. This hobby strengthens my ability to craft compelling visual stories in my own work.</p>
+            </div>
+
+            <div class="gallery-item">
+                <img src="/img/cooking_hobbies3.jpg" alt="Cooking" class="placeholder-img">
+                <h3>Cooking</h3>
+                <p>The art of creation and improvisation. Cooking requires patience, precision, and the ability to improvise when things go wrong—skills that translate directly to development and design.</p>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="/img/walking_hobbies4.jpg" alt="Walking" class="placeholder-img">
+                <h3>Walking</h3>
+                <p>Clearing the mind for clarity. Walking is my way to disconnect and process ideas. It's often during these quiet moments that the best solutions and creative concepts emerge.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="content-section skills-section">
+        <h2>Skills & Expertise</h2>
+        <div class="skills-container">
+            <div class="skills-grid">
+                
+                <div class="skill-item" data-image="skill-volleyball.jpg">
+                    <h3>Volleyball</h3>
+                    <p>Teamwork, strategy, and power. Volleyball taught me the value of rapid decision-making, clear communication under pressure, and the dedication required to execute a perfect play.</p>
+                </div>
+                
+                <div class="skill-item" data-image="skill-acting.jpg">
+                    <h3>Acting</h3>
+                    <p>Empathy and confident presentation. Acting allows me to inhabit different perspectives, strengthening my ability to understand user needs (empathy) and present my ideas with conviction and clarity.</p>
+                </div>
+                
+                <div class="skill-item" data-image="skill-singing.jpg">
+                    <h3>Singing</h3>
+                    <p>Breath control, presence, and finding harmony. Singing requires discipline and technical proficiency. It translates to my professional life as I focus on clear, resonant communication and harmonious team interaction.</p>
+                </div>
+                
+                <div class="skill-item" data-image="skill-photography.jpg">
+                    <h3>Photography</h3>
+                    <p>Mastery of light, focus, and storytelling. Photography is about seeing the world uniquely. It hones my eye for composition, detail, and ensuring every visual element serves a purpose.</p>
+                </div>
+
+            </div>
+            
+            <div class="skills-photo">
+                <img id="skillImageDisplay" src="/html/images/skills-placeholder.jpg" alt="Current Skill Image" class="placeholder-img elegant-border">
+                <p class="photo-caption" id="skillCaption">Select a skill above to see a related photo!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="content-section light-bg">
+        <h2>Let's Connect</h2>
+        <form action="#" class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Alvarez, Macaihla Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
